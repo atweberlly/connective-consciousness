@@ -1,0 +1,20 @@
+module.exports = {
+  content: ['./index.html', './src/**/*.vue'],
+  theme: {
+    container: {
+      center: true,
+      padding: {
+        DEFAULT: '2rem',
+      },
+    },
+    extend: {
+      colors: {
+        azure: '#f8ffff',
+        'dim-gray': '#666666',
+        'sky-blue': '#009efd',
+        cyprus: '#090f23',
+      },
+    },
+  },
+  plugins: [],
+}
