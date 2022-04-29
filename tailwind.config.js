@@ -1,3 +1,5 @@
+const defaultTheme = require('tailwindcss/defaultTheme')
+
 module.exports = {
   content: ['./index.html', './src/**/*.vue'],
   theme: {
@@ -13,6 +15,9 @@ module.exports = {
         'dim-gray': '#666666',
         'sky-blue': '#009efd',
         cyprus: '#090f23',
+      },
+      fontFamily: {
+        display: ['Playfair Display', ...defaultTheme.fontFamily.sans],
       },
     },
   },
