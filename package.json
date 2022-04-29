@@ -3,7 +3,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build && yarn format",
-    "preview": "vite preview",
+    "serve": "vite preview",
     "lint": "eslint .",
     "format": "prettier --write ."
   },
