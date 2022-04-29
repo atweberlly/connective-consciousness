@@ -10,7 +10,7 @@
           </div>
 
           <div class="md:justify-center" role="gridcell">
-            <h2 class="text-xl font-bold uppercase tracking-wide">Get in touch</h2>
+            <h2 class="font-display text-xl font-bold uppercase tracking-wider">Get in touch</h2>
             <div class="mt-4 space-y-4">
               <div class="flex">
                 <div>
