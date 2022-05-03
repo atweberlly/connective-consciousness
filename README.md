@@ -1,5 +1,7 @@
 # Connective Consciousness
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/8dc47766-b928-4ce5-b672-dd7e78273027/deploy-status)](https://app.netlify.com/sites/connective-demo/deploys)
+
 Connective Consciousness uses Vite, PostCSS, and Tailwind CSS. Here is how you can run this project locally:
 
 1. Download or clone the project
