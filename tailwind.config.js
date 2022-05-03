@@ -16,6 +16,9 @@ module.exports = {
         'sky-blue': '#009efd',
         cyprus: '#090f23',
       },
+      backgroundImage: {
+        banner: "url('/images/hero-banner-bg.png')",
+      },
       fontFamily: {
         display: ['Playfair Display', ...defaultTheme.fontFamily.sans],
       },

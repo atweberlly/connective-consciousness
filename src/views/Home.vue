@@ -1,5 +1,27 @@
 <template>
   <main>
+    <section class="bg-banner bg-cover bg-center bg-no-repeat py-32 text-white md:py-40">
+      <div class="container">
+        <div class="md:max-w-lg">
+          <div class="text-sm uppercase tracking-wider">Myofascial Massage Therapy</div>
+          <h1 class="mt-2 font-display text-4xl font-bold md:text-5xl lg:text-6xl">
+            A natural way
+            <br class="hidden lg:block" />
+            to heal
+          </h1>
+          <p class="mt-4 text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vehicula porta ornare.</p>
+          <div class="mt-8">
+            <a class="inline-flex items-center rounded-full bg-sky-blue px-6 py-2" href="#">
+              <span class="text-sm uppercase tracking-wide">Learn more</span>
+              <svg class="ml-2 h-6 w-6 fill-transparent stroke-current stroke-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m9 5 7 7-7 7" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section class="py-8">
       <div class="container">
         <div class="text-center uppercase tracking-wider">Our Products</div>
