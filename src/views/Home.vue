@@ -61,5 +61,29 @@
         </div>
       </div>
     </section>
+
+    <section class="bg-special-offer bg-cover bg-top bg-no-repeat py-8 text-white sm:py-16 md:py-20 xl:pt-28 xl:pb-36">
+      <div class="container">
+        <div class="text-sm uppercase tracking-wider">Special Offer</div>
+        <div class="mt-2 flex flex-col md:flex-row md:items-center md:justify-between">
+          <div>
+            <h2 class="font-display text-2xl font-bold sm:text-3xl md:text-4xl lg:text-5xl">
+              This Monday only 30% off
+              <br class="hidden lg:block" />
+              massage.
+            </h2>
+          </div>
+
+          <div class="mt-4 md:mt-0 md:flex-shrink-0">
+            <a class="inline-flex items-center rounded-full bg-sky-blue px-6 py-2" href="#" role="button">
+              <span class="text-sm tracking-wide">Make an Appointment</span>
+              <svg class="ml-2 h-6 w-6 fill-transparent stroke-current stroke-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m9 5 7 7-7 7" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
 </template>

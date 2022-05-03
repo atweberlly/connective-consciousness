@@ -18,6 +18,7 @@ module.exports = {
       },
       backgroundImage: {
         banner: "url('/images/hero-banner-bg.png')",
+        'special-offer': "url('/images/special-offer-bg.png')",
       },
       fontFamily: {
         display: ['Playfair Display', ...defaultTheme.fontFamily.sans],
