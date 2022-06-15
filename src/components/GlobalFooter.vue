@@ -1,5 +1,5 @@
 <template>
-  <footer class="bg-cyprus py-16 text-azure">
+  <footer class="bg-secondary py-16 text-light">
     <div class="container">
       <div role="grid">
         <div class="grid gap-8 md:grid-cols-2" role="row">
@@ -47,22 +47,22 @@
             <div class="mt-4 flex space-x-4">
               <a class="inline-flex h-8 w-8 items-center justify-center rounded-full bg-white" href="#">
                 <span class="sr-only">Facebook</span>
-                <i class="fab fa-facebook-f text-xl text-cyprus"></i>
+                <i class="fab fa-facebook-f text-xl text-secondary"></i>
               </a>
 
               <a class="inline-flex h-8 w-8 items-center justify-center rounded-full bg-white" href="#">
                 <span class="sr-only">Instagram</span>
-                <i class="fab fa-instagram text-xl text-cyprus"></i>
+                <i class="fab fa-instagram text-xl text-secondary"></i>
               </a>
 
               <a class="inline-flex h-8 w-8 items-center justify-center rounded-full bg-white" href="#">
                 <span class="sr-only">Twitter</span>
-                <i class="fab fa-twitter text-xl text-cyprus"></i>
+                <i class="fab fa-twitter text-xl text-secondary"></i>
               </a>
 
               <a class="inline-flex h-8 w-8 items-center justify-center rounded-full bg-white" href="#">
                 <span class="sr-only">YouTube</span>
-                <i class="fab fa-youtube text-xl text-cyprus"></i>
+                <i class="fab fa-youtube text-xl text-secondary"></i>
               </a>
             </div>
           </div>

@@ -1,19 +1,19 @@
 <template>
-  <div class="min-h-screen bg-azure text-gray-900 antialiased">
-    <Header></Header>
+  <div class="min-h-screen bg-light text-gray-900 antialiased">
+    <GlobalHeader />
     <router-view></router-view>
-    <Footer></Footer>
+    <GlobalFooter />
   </div>
 </template>
 
 <script>
-import Header from './components/Header.vue'
-import Footer from './components/Footer.vue'
+import GlobalHeader from './components/GlobalHeader.vue'
+import GlobalFooter from './components/GlobalFooter.vue'
 
 export default {
   components: {
-    Header,
-    Footer,
+    GlobalHeader,
+    GlobalFooter,
   },
 }
 </script>
