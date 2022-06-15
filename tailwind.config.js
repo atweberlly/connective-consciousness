@@ -6,16 +6,14 @@ module.exports = {
   theme: {
     container: {
       center: true,
-      padding: {
-        DEFAULT: '2rem',
-      },
+      padding: '2rem',
     },
     extend: {
       colors: {
-        azure: '#f8ffff',
-        'dim-gray': '#666666',
-        'sky-blue': '#009efd',
-        cyprus: '#090f23',
+        primary: '#009efd',
+        secondary: '#090f23',
+        light: '#f8ffff',
+        dark: '#666666',
       },
       backgroundImage: {
         banner: "url('/images/hero-banner-bg.png')",
