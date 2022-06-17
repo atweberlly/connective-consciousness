@@ -18,6 +18,7 @@ module.exports = {
       },
       backgroundImage: {
         banner: "url('/images/hero-banner-bg.png')",
+        yoga: "url('/images/yoga.jpg')",
         'special-offer': "url('/images/special-offer-bg.png')",
       },
       fontFamily: {
