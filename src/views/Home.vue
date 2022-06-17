@@ -24,6 +24,17 @@
 
     <section class="py-8">
       <div class="container">
+        <div class="text-sm uppercase tracking-wide text-slate-500">Mind Body Connection</div>
+        <h2 class="font-display text-2xl text-primary">Our Story</h2>
+        <p class="mt-4 text-slate-600">We started this business back in 2013, shortly after our son was born. During our son's birth, the doctors almost lost mother and baby, resulting in many health problems and disability diagnosis. This led our family into the world of alternative and traditional health practices, where opened up our first center in Kelowna, BC.</p>
+        <p class="mt-4 text-slate-600">Deciding to move to Calgary, AB in order to provide our son with better therapy, was a huge move for our family but we sold our thriving practice and took some time to adjust to the new city.</p>
+        <p class="mt-4 text-slate-600">Reopening in 2017 in Calgary, we have surprised doctors with our son's improvements, changing the diagnosis, and shaking up the notion that what you are diagnosed with is what you are stuck with.</p>
+        <blockquote class="mt-6 font-display text-lg font-bold">Our passion is to help others achieve the same unstoppable healing that we have been able to gain over the years.</blockquote>
+      </div>
+    </section>
+
+    <section class="py-8">
+      <div class="container">
         <div class="text-center text-sm uppercase tracking-wider">Our Products</div>
         <h2 class="text-center font-display text-2xl font-bold text-primary">The products we offer to you.</h2>
         <div class="mt-8 sm:mx-auto sm:max-w-sm lg:max-w-4xl" role="grid">
@@ -137,6 +148,34 @@
       </div>
     </section>
 
+    <section class="py-8">
+      <div class="container">
+        <div class="text-center text-sm uppercase tracking-wider text-slate-500">Testimonials</div>
+        <h2 class="text-center font-display text-xl">What our customers say...</h2>
+        <div class="mt-4 flex items-center justify-center">
+          <svg class="h-6 w-6 fill-current text-sunglow" viewBox="0 0 20 20">
+            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 0 0 .95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 0 0-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 0 0-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 0 0-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 0 0 .951-.69l1.07-3.292z" />
+          </svg>
+
+          <svg class="h-6 w-6 fill-current text-sunglow" viewBox="0 0 20 20">
+            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 0 0 .95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 0 0-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 0 0-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 0 0-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 0 0 .951-.69l1.07-3.292z" />
+          </svg>
+
+          <svg class="h-6 w-6 fill-current text-sunglow" viewBox="0 0 20 20">
+            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 0 0 .95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 0 0-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 0 0-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 0 0-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 0 0 .951-.69l1.07-3.292z" />
+          </svg>
+
+          <svg class="h-6 w-6 fill-current text-sunglow" viewBox="0 0 20 20">
+            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 0 0 .95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 0 0-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 0 0-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 0 0-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 0 0 .951-.69l1.07-3.292z" />
+          </svg>
+
+          <svg class="h-6 w-6 fill-current text-sunglow" viewBox="0 0 20 20">
+            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 0 0 .95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 0 0-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 0 0-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 0 0-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 0 0 .951-.69l1.07-3.292z" />
+          </svg>
+        </div>
+      </div>
+    </section>
+
     <section class="py-8 sm:py-12 md:py-16 lg:py-20 xl:py-24">
       <div class="container">
         <div class="sm:mx-auto sm:max-w-sm md:max-w-none" role="grid">
@@ -182,3 +221,20 @@
     </section>
   </main>
 </template>
+
+<script>
+import Swiper, { Navigation, Pagination } from 'swiper'
+
+const swiper = new Swiper('.swiper', {
+  modules: [Navigation, Pagination],
+  navigation: {
+    prevEl: '.swiper-button-prev',
+    nextEl: '.swiper-button-next',
+  },
+  pagination: {
+    el: '.swiper-pagination',
+  },
+})
+
+swiper.init()
+</script>

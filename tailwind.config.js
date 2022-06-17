@@ -14,6 +14,7 @@ module.exports = {
         secondary: '#090f23',
         light: '#f8ffff',
         dark: '#666666',
+        sunglow: '#ffce31',
       },
       backgroundImage: {
         banner: "url('/images/hero-banner-bg.png')",
