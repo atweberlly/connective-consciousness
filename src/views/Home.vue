@@ -11,9 +11,9 @@
           </h1>
           <p class="mt-4 text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vehicula porta ornare.</p>
           <div class="mt-8">
-            <a class="inline-flex items-center rounded-full bg-sky-blue px-6 py-2" href="#">
-              <span class="text-sm uppercase tracking-wide">Learn more</span>
-              <svg class="ml-2 h-6 w-6 fill-transparent stroke-current stroke-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <a class="inline-flex items-center rounded-full bg-primary px-6 py-2" href="#">
+              <span class="text-sm tracking-wide">Learn more</span>
+              <svg class="ml-2 h-4 w-4 fill-transparent stroke-current stroke-2" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" d="m9 5 7 7-7 7" />
               </svg>
             </a>
@@ -24,35 +24,35 @@
 
     <section class="py-8">
       <div class="container">
-        <div class="text-center uppercase tracking-wider">Our Products</div>
-        <h2 class="text-center font-display text-2xl font-bold text-sky-blue">The products we offer to you.</h2>
+        <div class="text-center text-sm uppercase tracking-wider">Our Products</div>
+        <h2 class="text-center font-display text-2xl font-bold text-primary">The products we offer to you.</h2>
         <div class="mt-8 sm:mx-auto sm:max-w-sm lg:max-w-4xl" role="grid">
           <div class="grid gap-8 lg:grid-cols-3" role="row">
             <div role="gridcell">
-              <div class="bg-cyprus text-white" role="article">
+              <div class="overflow-hidden rounded-lg bg-secondary text-white" role="article">
                 <div class="aspect-video bg-slate-400"></div>
                 <div class="px-6 py-4">
-                  <h3 class="font-display text-lg font-bold">Women Rising Book</h3>
+                  <h3 class="font-display text-xl font-bold">Women Rising Book</h3>
                   <p class="mt-6 text-slate-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, repudiandae sequi nulla obcaecati non unde sit laborum, animi ad, ipsum incidunt tempora eius esse.</p>
                 </div>
               </div>
             </div>
 
             <div role="gridcell">
-              <div class="bg-cyprus text-white" role="article">
+              <div class="overflow-hidden rounded-lg bg-secondary text-white" role="article">
                 <div class="aspect-video bg-slate-400"></div>
                 <div class="px-6 py-4">
-                  <h3 class="font-display text-lg font-bold">Women Rising Book</h3>
+                  <h3 class="font-display text-xl font-bold">Women Rising Book</h3>
                   <p class="mt-6 text-slate-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, repudiandae sequi nulla obcaecati non unde sit laborum, animi ad, ipsum incidunt tempora eius esse.</p>
                 </div>
               </div>
             </div>
 
             <div role="gridcell">
-              <div class="bg-cyprus text-white" role="article">
+              <div class="overflow-hidden rounded-lg bg-secondary text-white" role="article">
                 <div class="aspect-video bg-slate-400"></div>
                 <div class="px-6 py-4">
-                  <h3 class="font-display text-lg font-bold">Women Rising Book</h3>
+                  <h3 class="font-display text-xl font-bold">Women Rising Book</h3>
                   <p class="mt-6 text-slate-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, repudiandae sequi nulla obcaecati non unde sit laborum, animi ad, ipsum incidunt tempora eius esse.</p>
                 </div>
               </div>
@@ -62,12 +62,12 @@
       </div>
     </section>
 
-    <section class="bg-cyprus py-8 text-white sm:py-12 md:py-16 lg:py-20 xl:py-24">
+    <section class="bg-secondary py-8 text-white sm:py-12 md:py-16 lg:py-20 xl:py-24">
       <div class="container">
         <div role="grid">
           <div class="grid gap-8 lg:grid-cols-2 xl:items-center" role="row">
             <div role="gridcell">
-              <div class="text-sm uppercase tracking-wider">Services &amp; Treatments</div>
+              <div class="text-sm uppercase tracking-wider text-slate-300">Services &amp; Treatments</div>
               <h2 class="mt-1 font-display text-2xl font-bold md:text-3xl lg:text-4xl xl:text-5xl">
                 We provide the best
                 <br class="hidden lg:block" />
@@ -137,9 +137,29 @@
       </div>
     </section>
 
+    <section class="py-8 sm:py-12 md:py-16 lg:py-20 xl:py-24">
+      <div class="container">
+        <div class="sm:mx-auto sm:max-w-sm md:max-w-none" role="grid">
+          <div class="grid gap-8 md:grid-cols-2 lg:items-center" role="row">
+            <div role="gridcell">
+              <img class="rounded-lg lg:mx-auto lg:max-w-sm" src="https://images.unsplash.com/photo-1591343395902-1adcb454c4e2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=720" alt="Woman in white bikini sitting on red chair" />
+            </div>
+
+            <div role="gridcell">
+              <div class="text-sm uppercase tracking-wider text-slate-600">Personalized Care</div>
+              <h2 class="mt-1 font-display text-2xl font-bold text-primary md:text-3xl lg:text-4xl xl:text-5xl">Our Massage Therapy Story</h2>
+              <p class="mt-6 text-slate-500">We focus on delivering the highest quality of patient care in a relaxed and friendly atmosphere. We offer virtual or in-person appointments for your mental and physical wellbeing.</p>
+              <p class="mt-4 text-slate-500">We understand that no two people are the same, which is why we create a custom-made plan for each patient seeking long-term benefits. Since we moved our practice to Calgary in 2017 we have grown into a trusted and popular clinic that has developed a reputation for excellence.</p>
+              <p class="mt-4 text-slate-500">No matter what you need, we are here to help you every step of the way.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section class="bg-special-offer bg-cover bg-top bg-no-repeat py-8 text-white sm:py-16 md:py-20 xl:pt-28 xl:pb-36">
       <div class="container">
-        <div class="text-sm uppercase tracking-wider">Special Offer</div>
+        <div class="text-sm uppercase tracking-wider text-slate-300">Special Offer</div>
         <div class="mt-2 flex flex-col md:flex-row md:items-center md:justify-between">
           <div>
             <h2 class="font-display text-2xl font-bold sm:text-3xl md:text-4xl lg:text-5xl">
@@ -150,7 +170,7 @@
           </div>
 
           <div class="mt-4 md:mt-0 md:flex-shrink-0">
-            <a class="inline-flex items-center rounded-full bg-sky-blue px-6 py-2" href="#" role="button">
+            <a class="inline-flex items-center rounded-full bg-primary px-6 py-2" href="#" role="button">
               <span class="text-sm tracking-wide">Make an Appointment</span>
               <svg class="ml-2 h-6 w-6 fill-transparent stroke-current stroke-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" d="m9 5 7 7-7 7" />
