@@ -36,7 +36,7 @@
     <section class="py-8">
       <div class="container">
         <div class="text-center text-sm uppercase tracking-wider">Our Products</div>
-        <h2 class="text-center font-display text-2xl font-bold text-primary">The products we offer to you.</h2>
+        <h2 class="text-center font-display text-2xl font-bold text-primary md:mt-2 md:text-3xl">The products we offer to you.</h2>
         <div class="mt-8 sm:mx-auto sm:max-w-sm lg:max-w-4xl" role="grid">
           <div class="grid gap-8 lg:grid-cols-3" role="row">
             <div role="gridcell">
@@ -148,6 +148,12 @@
       </div>
     </section>
 
+    <!--
+    <svg class="to h-48 w-auto" viewBox="0 0 561 586">
+      <path fill="currentColor" d="M170.478 220.099c.989 8.225 8.459 14.091 16.684 13.101 8.225-.989 14.09-8.459 13.101-16.684l-29.785 3.583Zm346.445-31.662c4.116 7.189 13.281 9.68 20.47 5.564 7.189-4.117 9.68-13.282 5.564-20.471l-26.034 14.907ZM249.489 419.798c8.216 1.061 15.737-4.739 16.798-12.955 1.062-8.216-4.738-15.737-12.954-16.798l-3.844 29.753Zm4.829-389.082c8.127-1.603 13.417-9.491 11.813-17.619C264.528 4.97 256.64-.32 248.512 1.284l5.806 29.432Zm124.668 414.427c5.565-6.136 5.101-15.623-1.036-21.188-6.136-5.565-15.622-5.101-21.187 1.036l22.223 20.152ZM30.853 287.976c-1.157-8.203-8.744-13.915-16.947-12.759-8.204 1.157-13.916 8.745-12.76 16.948l29.707-4.189Zm484.819 76.659c.755-8.25-5.321-15.55-13.571-16.305-8.25-.755-15.549 5.321-16.304 13.571l29.875 2.734ZM210.945 546.539c-8.193-1.224-15.827 4.426-17.051 12.62-1.224 8.193 4.426 15.827 12.619 17.051l4.432-29.671ZM561 465.213c0-8.284-6.716-15-15-15-8.284 0-15 6.716-15 15h30Zm-86.959 91.154c-7.53 3.455-10.833 12.359-7.378 19.889 3.455 7.529 12.36 10.832 19.889 7.377l-12.511-27.266Zm-150.89-415.484c-8.133 1.574-13.451 9.443-11.877 17.576 1.573 8.134 9.442 13.452 17.576 11.878l-5.699-29.454Zm108.071 66.825c4.941 6.649 14.337 8.034 20.986 3.093 6.649-4.941 8.034-14.337 3.093-20.987l-24.079 17.894Zm-230.959 8.808c-6.727-55.915 42.663-108.983 113.08-124.975 68.389-15.531 151.642 6.188 203.58 96.896l26.034-14.907C483.931 70.443 386.87 44.079 306.699 62.286c-78.141 17.746-145.554 80.238-136.221 157.813l29.785-3.583Zm53.07 173.529c-51.753-6.686-88.558-30.097-112.326-61.433-23.946-31.571-35.291-72.059-34.182-113.481 2.229-83.24 54.206-166.014 147.493-184.415l-5.806-29.432C138.51 22.98 79.353 120.31 76.836 214.328c-1.264 47.206 11.615 94.635 40.269 132.414 28.833 38.014 73.004 65.384 132.384 73.056l3.844-29.753Zm103.43 34.946c-47.92 52.842-122.766 54.519-191.415 22.997-68.793-31.587-125.192-94.039-134.495-160.012l-29.706 4.189c11.143 79.02 76.66 148.638 151.682 183.086 75.166 34.514 166.034 36.192 226.157-30.108l-22.223-20.152Zm129.034-63.09c-6.022 65.821-46.456 115.866-100.382 147.813-54.161 32.087-120.417 44.899-174.47 36.825l-4.432 29.671c61.293 9.155 134.471-5.303 194.193-40.685 59.957-35.521 107.853-93.144 114.966-170.89l-29.875-2.734ZM531 465.213c0 32.454-14.151 55.083-28.598 69.918a117.194 117.194 0 0 1-19.998 16.405 94.39 94.39 0 0 1-6.411 3.824c-.741.4-1.295.682-1.631.849-.169.084-.282.138-.337.165a.205.205 0 0 1-.038.017l.016-.007.016-.007.01-.005c.006-.002.012-.005 6.268 13.628 6.255 13.633 6.262 13.63 6.269 13.627l.014-.007.035-.015.086-.041c.066-.03.147-.069.244-.115.194-.093.449-.216.763-.372a82.957 82.957 0 0 0 2.539-1.32c2.11-1.139 5.024-2.81 8.475-5.047a147.25 147.25 0 0 0 25.173-20.649C542.299 537.162 561 507.397 561 465.213h-30ZM328.85 170.337c32.64-6.315 58.113 3.057 75.724 14.14a117.187 117.187 0 0 1 20.236 16.124 92.742 92.742 0 0 1 5.043 5.434 53.827 53.827 0 0 1 1.382 1.691.381.381 0 0 0 .012.016l-.011-.015a.055.055 0 0 1-.007-.009c-.003-.005-.007-.01 12.032-8.957 12.04-8.947 12.036-8.953 12.031-8.959l-.01-.013-.022-.03-.058-.077-.164-.215a46.41 46.41 0 0 0-.521-.668 83.746 83.746 0 0 0-1.814-2.203 123.127 123.127 0 0 0-6.685-7.213 147.203 147.203 0 0 0-25.465-20.297c-22.397-14.095-55.555-26.299-97.402-18.203l5.699 29.454Z" />
+    </svg>
+    -->
+
     <section class="relative bg-yoga bg-cover bg-center bg-no-repeat py-8 md:py-16 lg:py-24 xl:py-28">
       <div class="absolute inset-0 h-full w-full bg-secondary/75" aria-label="Background overlay"></div>
       <div class="container relative text-white">
@@ -236,7 +242,7 @@
           </div>
         </div>
 
-        <div class="swiper-pagination inset-x-0 w-full space-x-2"></div>
+        <!-- <div class="swiper-pagination inset-x-0 w-full space-x-2"></div> -->
       </div>
     </section>
 
@@ -244,8 +250,9 @@
       <div class="container">
         <div class="sm:mx-auto sm:max-w-sm md:max-w-none" role="grid">
           <div class="grid gap-8 md:grid-cols-2 lg:items-center" role="row">
-            <div role="gridcell">
+            <div class="md:relative" role="gridcell">
               <img class="rounded-lg lg:mx-auto lg:max-w-sm" src="https://images.unsplash.com/photo-1591343395902-1adcb454c4e2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=720" alt="Woman in white bikini sitting on red chair" />
+              <img class="hidden md:absolute md:bottom-12 md:-left-12 md:block md:aspect-video md:rounded-lg md:object-cover md:shadow-lg lg:left-0 lg:aspect-auto lg:w-64" src="https://images.unsplash.com/photo-1552196563-55cd4e45efb3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1626&q=720" alt="Woman performing yoga" />
             </div>
 
             <div role="gridcell">
@@ -274,7 +281,7 @@
 
           <div class="mt-4 md:mt-0 md:flex-shrink-0">
             <a class="inline-flex items-center rounded-full bg-primary px-6 py-2" href="#" role="button">
-              <span class="text-sm tracking-wide">Make an Appointment</span>
+              <span class="text-sm font-bold tracking-wide">Make an Appointment</span>
               <svg class="ml-2 h-6 w-6 fill-transparent stroke-current stroke-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" d="m9 5 7 7-7 7" />
               </svg>
