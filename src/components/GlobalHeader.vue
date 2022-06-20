@@ -39,7 +39,7 @@
           </a>
         </div>
 
-        <div class="ml-auto md:hidden">
+        <div class="ml-auto md:hidden" id="menu-button">
           <button class="block">
             <svg class="h-6 w-6 stroke-current stroke-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
@@ -49,20 +49,21 @@
       </div>
     </header>
 
-    <div class="fixed inset-2 top-2 z-10 hidden h-fit rounded-xl bg-white py-6 shadow-lg">
+    <div class="fixed inset-2 top-2 z-10 hidden h-fit rounded-xl bg-white py-6 shadow-lg" id="mobile-menu">
       <div class="flex items-center justify-between px-6">
         <a href="/">
           <span class="sr-only">Connective Consciousness</span>
+          <img class="w-12" src="/images/cc-mobile-logomark.png" alt="Connective Consciousness" />
         </a>
 
-        <button>
+        <button id="close-menu-button">
           <svg class="h-6 w-6 text-gray-400" fill="none" viewBox="0 0 24 24">
             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m6 6 12 12M6 18 18 6 6 18Z" />
           </svg>
         </button>
       </div>
 
-      <nav class="space-y-1 px-3" aria-label="Mobile menu">
+      <nav class="mt-6 space-y-1 px-3" aria-label="Mobile menu">
         <a class="block rounded-lg px-3 py-2 hover:bg-slate-100" href="/">Home</a>
         <a class="block rounded-lg px-3 py-2 hover:bg-slate-100" href="#">About</a>
         <a class="block rounded-lg px-3 py-2 hover:bg-slate-100" href="#">Blog</a>
@@ -72,6 +73,31 @@
       </nav>
     </div>
 
-    <div class="fixed inset-0 hidden h-full w-full bg-gray-900/50" aria-hidden="true" aria-label="Mobile menu overlay"></div>
+    <div class="fixed inset-0 hidden h-full w-full bg-gray-900/50" id="mobile-menu-overlay" aria-hidden="true" aria-label="Mobile menu overlay"></div>
   </div>
 </template>
+
+<script>
+const openMobileMenu = () => {
+  const menuButton = document.getElementById('menu-button')
+  const mobileMenu = document.getElementById('mobile-menu')
+  const closeMenuButton = document.getElementById('close-menu-button')
+  const mobileMenuOverlay = document.getElementById('mobile-menu-overlay')
+
+  menuButton.addEventListener('click', () => {
+    mobileMenu.classList.remove('hidden')
+    mobileMenuOverlay.classList.remove('hidden')
+  })
+
+  closeMenuButton.addEventListener('click', () => {
+    mobileMenu.classList.add('hidden')
+    mobileMenuOverlay.classList.add('hidden')
+  })
+}
+
+export default {
+  mounted: () => {
+    openMobileMenu()
+  },
+}
+</script>
