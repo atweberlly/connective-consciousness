@@ -22,7 +22,7 @@
       </div>
     </section>
 
-    <section class="py-8 md:py-12 lg:pt-24">
+    <section class="pt-8 md:pt-12 lg:pt-24">
       <div class="lg:relative lg:pb-56 xl:pb-96 2xl:pb-8">
         <div class="container md:max-w-lg lg:max-w-none xl:max-w-6xl">
           <div class="text-sm uppercase tracking-wide text-slate-500">Mind Body Connection</div>
@@ -52,46 +52,6 @@
           </svg>
           <p class="relative font-display text-lg font-bold md:text-xl lg:text-center lg:text-2xl xl:text-3xl">Our passion is to help others achieve the same unstoppable healing that we have been able to gain over the years.</p>
         </blockquote>
-      </div>
-    </section>
-
-    <section class="py-8">
-      <div class="container">
-        <div class="text-center text-sm uppercase tracking-wider">Our Products</div>
-        <h2 class="text-center font-display text-2xl font-bold text-primary md:mt-2 md:text-3xl">The products we offer to you.</h2>
-        <div class="mt-8 sm:mx-auto sm:max-w-sm lg:max-w-4xl" role="grid">
-          <div class="grid gap-8 lg:grid-cols-3" role="row">
-            <div role="gridcell">
-              <div class="overflow-hidden rounded-lg bg-secondary text-white" role="article">
-                <div class="aspect-video bg-slate-400"></div>
-                <div class="px-6 py-4">
-                  <h3 class="font-display text-xl font-bold">Women Rising Book</h3>
-                  <p class="mt-6 text-slate-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, repudiandae sequi nulla obcaecati non unde sit laborum, animi ad, ipsum incidunt tempora eius esse.</p>
-                </div>
-              </div>
-            </div>
-
-            <div role="gridcell">
-              <div class="overflow-hidden rounded-lg bg-secondary text-white" role="article">
-                <div class="aspect-video bg-slate-400"></div>
-                <div class="px-6 py-4">
-                  <h3 class="font-display text-xl font-bold">Women Rising Book</h3>
-                  <p class="mt-6 text-slate-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, repudiandae sequi nulla obcaecati non unde sit laborum, animi ad, ipsum incidunt tempora eius esse.</p>
-                </div>
-              </div>
-            </div>
-
-            <div role="gridcell">
-              <div class="overflow-hidden rounded-lg bg-secondary text-white" role="article">
-                <div class="aspect-video bg-slate-400"></div>
-                <div class="px-6 py-4">
-                  <h3 class="font-display text-xl font-bold">Women Rising Book</h3>
-                  <p class="mt-6 text-slate-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, repudiandae sequi nulla obcaecati non unde sit laborum, animi ad, ipsum incidunt tempora eius esse.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
 
@@ -162,6 +122,46 @@
                   <div role="gridcell">
                     <img class="lg:mx-auto lg:w-40 xl:w-48" src="/images/massage-demo.png" alt="Massage demo" />
                   </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-8">
+      <div class="container">
+        <div class="text-center text-sm uppercase tracking-wider">Our Products</div>
+        <h2 class="text-center font-display text-2xl font-bold text-primary md:mt-2 md:text-3xl">The products we offer to you.</h2>
+        <div class="mt-8 sm:mx-auto sm:max-w-sm lg:max-w-4xl" role="grid">
+          <div class="grid gap-8 lg:grid-cols-3" role="row">
+            <div role="gridcell">
+              <div class="overflow-hidden rounded-lg bg-secondary text-white" role="article">
+                <div class="aspect-video bg-slate-400"></div>
+                <div class="px-6 py-4">
+                  <h3 class="font-display text-xl font-bold">Women Rising Book</h3>
+                  <p class="mt-6 text-slate-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, repudiandae sequi nulla obcaecati non unde sit laborum, animi ad, ipsum incidunt tempora eius esse.</p>
+                </div>
+              </div>
+            </div>
+
+            <div role="gridcell">
+              <div class="overflow-hidden rounded-lg bg-secondary text-white" role="article">
+                <div class="aspect-video bg-slate-400"></div>
+                <div class="px-6 py-4">
+                  <h3 class="font-display text-xl font-bold">Women Rising Book</h3>
+                  <p class="mt-6 text-slate-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, repudiandae sequi nulla obcaecati non unde sit laborum, animi ad, ipsum incidunt tempora eius esse.</p>
+                </div>
+              </div>
+            </div>
+
+            <div role="gridcell">
+              <div class="overflow-hidden rounded-lg bg-secondary text-white" role="article">
+                <div class="aspect-video bg-slate-400"></div>
+                <div class="px-6 py-4">
+                  <h3 class="font-display text-xl font-bold">Women Rising Book</h3>
+                  <p class="mt-6 text-slate-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, repudiandae sequi nulla obcaecati non unde sit laborum, animi ad, ipsum incidunt tempora eius esse.</p>
                 </div>
               </div>
             </div>
